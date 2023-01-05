@@ -3,7 +3,7 @@
 void is_prime(int num){
      int i;
      int not_prime  = 0;
-     for(i=2;i<num/2;i+=2){
+     for(i=3;i<num/2;i+=2){
     
         if(num % i==0){
             printf("N");
